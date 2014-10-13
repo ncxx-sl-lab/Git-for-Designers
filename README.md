@@ -11,11 +11,7 @@ Git とは
 
 概念図
 
-	　　 ∧＿∧     　　　　　　∧＿∧     
-	　　（　´∀｀） ―push→　（　・∀・） 
-	　　（　　　　） ←pull―　 .（　　　　）
-	　　｜ ｜　| 　　　　　　　.｜ ｜　|
-	　　（_＿）＿） 　　　　　　 （_＿）＿） 
+![Gitの概念図](http://keepingblog.net/github_images/git_tutorial_images.jpg)
 
 最初に！
 -------
