@@ -13,6 +13,30 @@ Git とは
 
 ![Gitの概念図](http://keepingblog.net/github_images/git_tutorial_images.jpg)
 
+
+Git のインストール
+------------------
+
+GitはLinux上で動作するバージョン管理システムです。  
+そのため、MacとWindowsではインストール方法が異なります。
+
+### Macの場合
+
+最近のMacにはデフォルトでGitがインストールされています。  
+**環境変数の設定については後述します。**
+
+### Windowsの場合
+
+Windows環境にGitをインストールする場合、[**msysGit**](http://msysgit.github.io/) を使用するのが一番簡単です。  
+msysGitのサイトに飛んで、Download をクリックしてください。  
+最新版 Git-1.9.4-preview20140929.exe のダウンロードが開始されます（2014年10月時点）。  
+
+### インストーラの設定（msysGit）
+
+ダウンロードしたファイルをクリックして、インストーラを開いてください。
+
+
+
 最初に！
 -------
 
