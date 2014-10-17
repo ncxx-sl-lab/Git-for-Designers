@@ -86,10 +86,6 @@ msysGitのサイトに飛んで、Download をクリックしてください。
 	echo .DS_Store >> $HOME/.gitignore
 	echo Thumbs.db >> $HOME/.gitignore
 
-### エンジニアがやること
-
- * エディタの設定 (nano がおすすめ？)
-
 最低限のワークフロー
 --------------------
 
@@ -113,7 +109,7 @@ msysGitのサイトに飛んで、Download をクリックしてください。
 
 中央のリポジトリをクローンしてきます
 
-	% git clone --recursive git@repository01:/var/git/projects/Hatena-Project.git
+	% git clone --recursive https://github.com/ncxx-sl-lab/members.git
 
 リポジトリとサブモジュールをコピーするため、多少時間がかかります。
 
