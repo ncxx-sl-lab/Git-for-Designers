@@ -130,14 +130,14 @@ Git の操作を快適にします。
 	error: Your local changes to 'templates/index.html' would be overwritten by merge.  Aborting.
 	Please, commit your changes or stash them before you can merge.
 
-上のようなメッセージが出た場合は、pull で更新されるファイルが手元で修正されていて、まだコミットされていません。  
+上記のメッセージが出た場合は、pull で更新されるファイルが手元で修正されていて、まだコミットされていません。  
 変更をコミットしてからもう一度 `git pull` しなおして下さい。
 
 	Auto-merging templates/index.html
 	CONFLICT (content): Merge conflict in templates/index.html
 	Automatic merge failed; fix conflicts and then commit the result.
 
-上のようなメッセージが出た場合は、他の人が行った変更と手元でコミットした内容がコンフリクトしています。  
+上記のメッセージが出た場合は、他の人が行った変更と手元でコミットした内容がコンフリクトしています。  
 量が多すぎる、訳がわからない、修正できるか自信がない場合は、以下のコマンドを実行して中止し、開発者に尋ねてください。
 
 	$ git reset --hard
